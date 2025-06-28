@@ -1,0 +1,11 @@
+project       = "newterraformvariables"
+region        = "us-central1"
+zone          = "us-central1-a"
+credentials   = "centralkey.json"
+instance_name = "new"
+machinetype   = "e2-micro"
+boot_disk_image = "debian-cloud/debian-12"
+boot_disk_size_gb =  "10"
+boot_disk_type = "pd-standard"
+boot_disk_auto_delete = "false"
+
